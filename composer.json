@@ -24,8 +24,8 @@
     },
     "minimum-stability": "dev",
     "autoload": {
-        "classmap": [
-            "vendor/zsroma/pdfmerger/PDFMerger.php"
-        ]
+        "psr-0": {
+            "PDFMerger": "PDFMerger.php"
+        }
     }
 }
